@@ -9,16 +9,9 @@ package githubjc;
  *
  * @author user
  */
-public class GitHubJC {
+public class Employee {
 
-   
-    public static void main(String[] args) {
-       Company c1 = new Company();
-       Employee e1 = new Employee();
-            
-           
-        }
-       
-    }
+       String name;
+            String surname;
     
-
+}
