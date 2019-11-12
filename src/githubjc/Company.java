@@ -5,6 +5,8 @@
  */
 package githubjc;
 
+import java.util.Arrays;
+
 /**
  *
  * @author user
@@ -12,6 +14,12 @@ package githubjc;
 public class Company {
             String companyName;
             Employee employees [];
+            
+            @Override
+            public String toString(){
+                return "Company{" + "companyName='" + companyName + '\'' + ", employees=" + Arrays.toString(employees) + '}';
+                
+            }
     }
     
-}
+

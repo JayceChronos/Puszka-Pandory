@@ -14,4 +14,9 @@ public class Employee {
        String name;
             String surname;
     
+           @Override
+           public String toString() {
+               return "Employee{" + 
+                       "name='" + name + '\''+ ", lastname='" + lastname + '\'';
+           }
 }
